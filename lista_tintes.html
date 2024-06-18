@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos_listaDeObjetos.css">
+    <script src="https://kit.fontawesome.com/f165e7103e.js" crossorigin="anonymous"></script>
+    <title>GOBEN</title>
+</head>
+<body>
+    <header class="encabezado">
+        <img src="imagenes/logo.png" alt="Logo GOBEN">
+        <h1> Autentica Barbershop</h1>
+        <h2 id="subtitulo">NIMBUS</h2>
+        <div class="clearfix"></div>
+        <nav>
+            <a href="lista_clientes.html"><i class="fa-solid fa-users"></i> Clientes</a>
+            <a href="lista_historial.html"><i class="fa fa-info" aria-hidden="true"></i> Historial de Tintes</a>
+            <a href="lista_productos.html"><i class="fa fa-scissors" aria-hidden="true"></i> Servicios</a>
+            <a href="lista_empleados.html"><i class="fa-solid fa-address-card"></i> Empleados</a>
+            <a href="lista_tintes.html"><i class="fa-solid fa-palette"></i>Tintes</a>
+            <a href="lista_citas.html"><i class="fa-solid fa-calendar-check"></i>Citas</a>
+            <a href="lista_cortecaja.html"><i class="fa-solid fa-money-bill"></i>Caja</a>
+            <a href="index.html" id="user"><i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión</a>
+        </nav>
+    </header>
+    <!--- Contenido de lista -->
+    <div>
+        <h2 id="titulo">Tintes</h2>
+        <a href="agregar_tinte.html" id="nuevo">
+            <i class="fa-solid fa-plus-circle"></i> Nuevo
+        </a>
+        <div class="clearfix" ></div>
+        <div class="listobj">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Tono</th>
+                    <th>Descripcion</th>
+                    <th>imagen</th>
+                    <th colspan="2">Operaciones</th>
+                </tr>
+                <tr>
+                    <td>0001</td>
+                    <td>Negro Azulado</td>
+                    <td>28</td>
+                    <td>Negro con azul</td>
+                    <td><img src="imagenes/tinte1.jpg" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td>           
+                </tr>
+                <tr>
+                    <td>0002</td>
+                    <td>Negro </td>
+                    <td>1</td>
+                    <td>Negro total</td>
+                    <td><img src="imagenes/tinte2.jpg" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td>                       
+                </tr>
+                <tr>
+                    <td>0003</td>
+                    <td>Cenizo</td>
+                    <td>12.1</td>
+                    <td>Rubio Claro</td>
+                    <td><img src="imagenes/tinte3.png" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td>                      
+                </tr>
+                <tr>
+                    <td>0004</td>
+                    <td>Negro Azul</td>
+                    <td>25</td>
+                    <td>Negro con Azul</td>
+                    <td><img src="imagenes/tinte4.jpg" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td>                      
+                </tr>
+                <tr>
+                    <td>0005</td>
+                    <td>Rojo</td>
+                    <td>7.64</td>
+                    <td>Rojo</td>
+                    <td><img src="imagenes/tinte5.jpg" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td>                      
+                </tr>
+                <tr>
+                    <td>0006</td>
+                    <td>Cafe</td>
+                    <td>61</td>
+                    <td>Cafe claro</td>
+                    <td><img src="imagenes/tinte6.jpg" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td>                       
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <table>
+            <tr>
+                <td>
+                    <i class="fa-solid fa-shop"></i> Autentica Babershop <br> <br>
+                    <i class="fa-solid fa-location-dot"></i> <a href="#">Plaza neza 57000 Nezahualcóyotl, <br> Estado de México, México</a> <br> <br>
+                    <i class="fa-solid fa-phone"></i> Telefono: 55-9021-3980
+                </td>
+                <td>
+                    &#169; GOBEN <br> <br>
+                    <i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/autenticabarber/" target="_blank"> @BarberiaAutentica</a> <br> <br>
+                    <i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/autenticabarbershop/" target="_blank"> @AutenticaBarber</a>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

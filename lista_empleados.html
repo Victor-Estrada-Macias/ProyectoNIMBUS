@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos_listaDeObjetos.css">
+    <script src="https://kit.fontawesome.com/f165e7103e.js" crossorigin="anonymous"></script>
+    <title>GOBEN</title>
+</head>
+<body>
+    <header class="encabezado">
+        <img src="imagenes/logo.png" alt="Logo GOBEN">
+        <h1> Autentica Barbershop</h1>
+        <h2 id="subtitulo">NIMBUS</h2>
+        <div class="clearfix"></div>
+        <nav>
+            <a href="lista_clientes.html"><i class="fa-solid fa-users"></i>Clientes</a>
+            <a href="lista_historial.html"><i class="fa fa-info" aria-hidden="true"></i> Historial de Tintes</a>
+            <a href="lista_productos.html"><i class="fa fa-scissors" aria-hidden="true"></i> Servicios</a>
+            <a href="lista_empleados.html"><i class="fa-solid fa-address-card"></i> Empleados</a>
+            <a href="lista_tintes.html"><i class="fa-solid fa-palette"></i>Tintes</a>
+            <a href="lista_citas.html"><i class="fa-solid fa-calendar-check"></i>Citas</a>
+            <a href="lista_cortecaja.html"><i class="fa-solid fa-money-bill"></i>Caja</a>
+            <a href="index.html" id="user"><i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión</a>
+        </nav>
+    </header>
+    <!--- Contenido de lista -->
+    <div>
+        <h2 id="titulo">Empleados</h2>
+        <a href="agregar_empleados.html" id="nuevo">
+            <i class="fa-solid fa-plus-circle"></i> Nuevo
+        </a>
+        <div class="clearfix" ></div>
+        <div class="listobj">
+            <table>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Apellido Materno</th>
+                    <th>Apellido Paterno</th>
+                    <th>Telefono</th>
+                    <th>Imagen</th>
+                    <th colspan="2">Operaciones</th>
+                </tr>
+                <tr>
+                    <td>0001</td>
+                    <td>Jorge</td>
+                    <td>Hernandez</td>
+                    <td>Rosas</td>
+                    <td>55 2545 8454</td>  
+                    <td><img src="imagenes/empleado1.jpg" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>0002</td>
+                    <td>Pedro</td>
+                    <td>Hernandez</td>
+                    <td>Gonzales</td>
+                    <td>55 9988 7733</td>  
+                    <td><img src="imagenes/empleado2.jpg" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>0003</td>
+                    <td>Ramirez</td>
+                    <td>Gonzales</td>
+                    <td>Fierro</td>
+                    <td>52 9957 4563</td>  
+                    <td><img src="imagenes/empleado3.jpg" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>0004</td>
+                    <td>Marcelo</td>
+                    <td>Fernandez</td>
+                    <td>Jaime</td>
+                    <td>55 9687 4125</td>  
+                    <td><img src="imagenes/empleado4.jpg" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>0005</td>
+                    <td>Juan</td>
+                    <td>Cage</td>
+                    <td>Perez</td>
+                    <td>55 9458 6523</td>  
+                    <td><img src="imagenes/empleado5.jpg" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td> 
+                </tr>
+                <tr>
+                    <td>0006</td>
+                    <td>Ignacio</td>
+                    <td>Hernandez</td>
+                    <td>Gonzales</td>
+                    <td>55 9845 6523</td>  
+                    <td><img src="imagenes/empleado6.jpg" alt="Tinte"></td>
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-edit"></i>
+                        </a>
+                    </td>       
+                    <td>
+                        <a href="">
+                            <i class="fa-solid fa-trash"></i>
+                        </a>
+                    </td> 
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <table>
+            <tr>
+                <td>
+                    <i class="fa-solid fa-shop"></i> Autentica Babershop <br> <br>
+                    <i class="fa-solid fa-location-dot"></i> <a href="#">Plaza neza 57000 Nezahualcóyotl, <br> Estado de México, México</a> <br> <br>
+                    <i class="fa-solid fa-phone"></i> Telefono: 55-9021-3980
+                </td>
+                <td>
+                    &#169; GOBEN <br> <br>
+                    <i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/autenticabarber/" target="_blank"> @BarberiaAutentica</a> <br> <br>
+                    <i class="fa-brands fa-instagram"></i> <a href="https://www.instagram.com/autenticabarbershop/" target="_blank"> @AutenticaBarber</a>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
